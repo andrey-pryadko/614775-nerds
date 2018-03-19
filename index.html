@@ -2,11 +2,205 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Дизайн-студия Nёrds</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/logo-nerds.svg" width="160" height="65" alt="Логотип дизайн-студии Nёrds">
+        </a>
+        <ul class="site-navigation">
+          <li class="site-navigation-item"><a href="#">Студия</a></li>
+          <li class="site-navigation-item"><a href="#">Клиенты</a></li>
+          <li class="site-navigation-item"><a href="#">Магазин</a></li>
+          <li class="site-navigation-item"><a href="#">Контакты</a></li>
+        </ul>
+        <a class="сart">Корзина</a>
+      </nav>
+      <section class="sliders">
+        <section class="slider slider-active">
+          <p>Долго, дорого, скрупулезно.</p>
+          <h2>Математически выверенный дизайн для вашего сайта или мобильного приложения.</h2>
+          <a class="button slider-button" href="#">Узнать больше</a>
+        </section>
+        <section class="slider">
+          <p>Любим математику как никто другой</p>
+          <h2>Никакого креатива, только математические формулы для расчета идеальных пропорций.</h2>
+          <a class="button slider-button" href="#">Узнать больше</a>
+        </section>
+        <section class="slider">
+          <p>Только ночь, только хардкор</p>
+          <h2>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</h2>
+          <a class="button slider-button" href="#">Узнать больше</a>
+        </section>
+        <ul class="slider-navigation">
+          <li>
+            <button class="slider-navigation-button slider-navigation-button-active invisible-text">Первый слайд</button>
+          </li>
+          <li>
+            <button class="slider-navigation-button invisible-text">Второй слайд</button>
+          </li>
+          <li>
+            <button class="slider-navigation-button invisible-text">Третий слайд</button>
+          </li>
+        </ul>
+      </section>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+    <main class="container">
+      <section class="products-container">
+        <h2 class="visually-hidden">Наши продукты</h2>
+        <article class="product">
+          <h3>Веб-сайты</h3>
+          <p>
+            Мир никогда не будет прежним после того как увидит ваш сайт!
+          </p>
+          <a class="button product-button" href="#">Заказать</a>
+        </article>
+        <article class="product">
+          <h3>Приложения</h3>
+          <p>
+            Покорите топ-10 приложений в AppStore и Google Play
+          </p>
+          <a class="button product-button" href="#">Заказать</a>
+        </article>
+        <article class="product">
+          <h3>Презентации</h3>
+          <p>
+            Вы даже не подозреваете, насколько вы изумительны!
+          </p>
+          <a class="button product-button" href="#">Заказать</a>
+        </article>
+      </section>
+
+      <section class="about-container">
+        <h1 class="visually-hidden">Дизайн-студия Nёrds.</h1>
+        <article class="about-us">
+          <h2>Мы &mdash;&nbsp; маленькая, но гордая дизайн-студия из Краснодара.</h2>
+          <p>
+            Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
+          </p>
+          <h3>Выполняем заказы на разработку:</h3>
+          <ul class="about-us-list">
+            <li class="about-us-item">
+              Веб-сайтов любой сложности
+            </li>
+            <li class="about-us-item">
+              Мобильных приложений для iOS и Android
+            </li>
+            <li class="about-us-item">
+              Слайдшоу и видео для корпоративных презентаций
+            </li>
+          </ul>
+        </article>
+        <article class="about-us-principles">
+          <h2 class="visually-hidden">Наши принципы</h2>
+          <img src="img/logo-nerds-big.jpg" width="360" height="208" alt="Дизайн-студия Nёrds. Большой логотип.">
+          <p>
+            с 2004 года Любим точность во всем:
+          </p>
+          <ul class="principles-list">
+            <li class="principles-item">
+              <b>
+                146<sup>%</sup>
+              </b>
+              Уровень самоотдачи
+            </li>
+            <li class="principles-item">
+              <b>
+                100<sup>%</sup>
+              </b>
+              Соблюдение сроков
+            </li>
+            <li class="principles-item">
+              <b>
+                50<sup>%</sup>
+              </b>
+              Минимальная предоплата
+            </li>
+          </ul>
+        </article>
+      </section>
+
+<!--Надо ли линковать логотипы и на что?  И это партнеры или проекты?-->
+      <section class="partners">
+        <h2 class="visually-hidden">Наши партнеры</h2>
+        <ul class="partners-list">
+          <li class="partners-item">
+            <a href="#">
+              <img src="img/partners-html-academy.svg" width="260" height="180" alt="Логотип HTML Академии">
+            </a>
+          </li>
+          <li class="partners-item">
+            <a href="#">
+              <img src="img/partners-barbershop.svg" width="260" height="180" alt="Логотип Barbershop Borodinski">
+            </a>
+          </li>
+          <li class="partners-item">
+            <a href="#">
+              <img src="img/partners-pink.svg" width="260" height="180" alt="Логотип Pink">
+            </a>
+          </li>
+          <li class="partners-item">
+            <a href="#">
+              <img src="img/partners-mishka.svg" width="260" height="180" alt="Логотип Mishka">
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <section class="map">
+      <h2 class="visually-hidden">Дизайн-студия Nёrds на карте</h2>
+      <!-- Здесь будет карта -->
+      <section class="contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <p>
+          <b>NЁRDS DESIGN STUDIO</b>
+          191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+        </p>
+        <p>
+          тел. +7 (812) 275-75-75
+        </p>
+        <a class="button" href="contacts.html">Напишите нам</a>
+      </section>
+    </section>
+
+    <footer class="main-footer">
+      <ul class="footer-social">
+        <li><a class="social-button vk invisible-text" href="#">Вконтакте</a></li>
+        <li><a class="social-button fb invisible-text" href="#">Фейсбук</a></li>
+        <li><a class="social-button insta invisible-text" href="#">Инстаграм</a></li>
+      </ul>
+      <p class="footer-tagline">
+        <b>Давайте дружить, это выгодно!</b>
+        Скидка 10% для друзей из социальных сетей.
+      </p>
+    </footer>
+
+    <section class="modal-contact">
+      <h2>Напишите нам</h2>
+      <form class="contact-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="contact-name">Ваше имя:</label>
+          <input class="contact-name" id="contact-name" type="text" name="contact-name" placeholder="Имя Фамилия" required>
+        </p>
+        <p>
+          <label for="contact-email">Ваш e-mail:</label>
+          <input class="contact-email" id="contact-email" type="email" name="contact-email" placeholder="email@example.com" required>
+        </p>
+        <p>
+          <label for="user-comment">Текст письма:</label>
+          <input class="user-comment" id="user-comment" type="text" name="user-comment" placeholder="В свободной форме" required>
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close invisible-text">Закрыть</button>
+    </section>
 
   </body>
 </html>
