@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Заменить это на актуальный */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.button {
+  font: inherit;
+  line-height: 18px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+
+  background-color: #fb565a;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #e74246;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7373b;
+}
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.main-navigation {
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.main-navigation a {
+  color: #000000;
+}
+
+.main-navigation a:focus,
+.main-navigation a:hover {
+  color: #fb565a;
+}
+
+.main-navigation a:active {
+  color: #000000;
+  opacity: 0.3;
+}
+
+.main-header-logo:focus,
+.main-header-logo:hover {
+  opacity: 0.8;
+}
+
+.main-header-logo:active,
+.main-header-logo:active {
+  opacity: 0.3;
+}
+
+.site-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sliders p {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.sliders h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.slider-button {
+  background-color: #fb565a;
+}
+
+.slider-button:focus,
+.slider-button:hover {
+  background-color: #e74246;
+}
+
+.slider-button:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* не работает бэк */
+.slider {
+  background-image: url("img/shop-sedona.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.slider-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.product-apps-button {
+  background-color: #00ca74;
+}
+
+.product-apps-button:focus,
+.product-apps-button:hover {
+  background-color: #00bc6c;
+}
+
+.product-apps-button:active {
+  background-color: #00aa62;
+}
+
+.product-presentation-button {
+  background-color: #efc84a;
+}
+
+.product-presentation-button:focus,
+.product-presentation-button:hover {
+  background-color: #eab534;
+}
+
+.product-presentation-button:active {
+  background-color: #e5a722;
+}
+
+.about-us h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.about-us h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-us-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us-principles p {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.principles-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.principles-item b {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.about-us-item {
+  line-height: 18px;
+}
+
+.partners-item img {
+  opacity: 0.2;
+}
+
+.partners-item img:focus,
+.partners-item img:hover {
+  opacity: 1;
+}
+
+.partners-item img:active {
+  opacity: 0.1;
+}
+
+.contacts b {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  line-height: 18px;
+}
+
+.footer-tagline p {
+  line-height: 22px;
+}
+
+.footer-tagline b {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.modal-contact h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
